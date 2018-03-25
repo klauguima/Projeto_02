@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>base.h</itemPath>
+      <itemPath>cores.h</itemPath>
+      <itemPath>desenho.h</itemPath>
+      <itemPath>geometria.h</itemPath>
+      <itemPath>imagem.h</itemPath>
+      <itemPath>segmenta.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>base.c</itemPath>
+      <itemPath>cores.c</itemPath>
+      <itemPath>desenho.c</itemPath>
+      <itemPath>geometria.c</itemPath>
+      <itemPath>imagem.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>segmenta.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Makefile</itemPath>
+    <itemPath>a01 - Original.bmp</itemPath>
+    <itemPath>b01 - Original.bmp</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a01 - Original.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="b01 - Original.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="desenho.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="desenho.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geometria.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="geometria.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="imagem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="imagem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="segmenta.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="segmenta.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="a01 - Original.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="b01 - Original.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="base.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="desenho.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="desenho.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="geometria.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="geometria.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="imagem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="imagem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="segmenta.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="segmenta.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
